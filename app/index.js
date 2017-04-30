@@ -38,13 +38,13 @@ app.use(function(req, res, next) {
 
 // Serve landing.html in /
 app.get('/', function(req, res) {
-	res.renderDebug('landing.html');
+	res.renderDebug('editor.html');
 });
 
 // Serve editor.html in /viewer
-app.get('/editor', function(req, res) {
-	res.renderDebug('editor.html');
-});
+//app.get('/editor', function(req, res) {
+	//res.renderDebug('editor.html');
+//});
 
 // Serve viewer.html in /viewer
 app.get('/viewer', function(req, res) {

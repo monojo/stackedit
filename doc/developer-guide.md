@@ -16,6 +16,7 @@ Getting started
 - Download development tools:
 
 		npm install
+		npm install --save-dev bower
 
 - Download dependencies:
 
